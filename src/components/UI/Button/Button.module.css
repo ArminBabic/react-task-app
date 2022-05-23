@@ -1,0 +1,28 @@
+.button {
+  width: 100%;
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #d7d5d1;
+  border-radius: 7px;
+  color: rgb(5, 5, 5);
+  background: rgb(195, 176, 176);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover,
+.button:active {
+  background: rgb(163, 147, 147);
+  border-color: #d7d5d1;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.26);
+}
+
+@media (min-width: 786px) {
+  .button {
+    width: auto;
+  }
+}
